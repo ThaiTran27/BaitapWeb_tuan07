@@ -1,0 +1,138 @@
+.card-film {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.rate {
+  position: absolute;
+  z-index: 3;
+  bottom: 55px;
+  right: 0;
+  color: #fff;
+  background-color: #00000065;
+  padding: 0 5px;
+  font-size: 18px;
+}
+
+.rate i {
+  margin-right: 20px;
+  color: #fde047;
+  font-size: 12px;
+}
+
+.day {
+  border-radius: 5px;
+  position: absolute;
+  z-index: 3;
+  bottom: 20px;
+  right: 5px;
+  font-size: 15px;
+}
+
+.inner-button .btn {
+  padding: 5px 20px;
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #fff;
+  transition: all 0.3s;
+}
+
+.inner-button .active {
+  color: #fff;
+  border: none;
+}
+
+.inner-button {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #0000004f;
+  transition: all 0.3s;
+  top: 0%;
+  border-radius: 20px;
+}
+
+.inner-button .fa-play {
+  margin-right: 10px;
+  padding-left: 5px;
+}
+
+.inner-button .btn:hover {
+  background-color: #fb9440;
+  border: none;
+}
+
+.card-film:hover .inner-button {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  border: none;
+  /* overflow: hidden; */
+}
+
+.card .card-right {
+  width: 30%;
+  margin-right: 20px;
+}
+
+.card .card-body-right {
+  width: 60%;
+  font-size: 16px;
+}
+
+.card-body {
+  padding: 0;
+}
+
+.card-body a {
+  color: #4a4a4a;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 2;
+  word-spacing: 3;
+}
+
+.card:hover a {
+  color: #034ea1;
+}
+
+.card img {
+  transition: all 0.5s;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.card:hover img {
+  transform: scale(1.04);
+}
+
+.card-body a:hover {
+  color: #034ea1;
+}
+
+.card button {
+  font-size: 10px;
+  margin-right: 10px;
+  padding: 3px 10px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.card .btn-secondary {
+  background-color: #e9ecef;
+  color: #000;
+  border: none;
+}
+
+.card button i {
+  margin-right: 5px;
+}

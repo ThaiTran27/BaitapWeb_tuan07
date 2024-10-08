@@ -1,0 +1,21 @@
+.full-background {
+    background-image: url('../img/Bai2/hero-bg.jpg');
+    background-size: cover; 
+    background-position: center; 
+    padding-bottom: 20%;
+    color: #fff; 
+    
+  }
+
+.carousel-indicators span {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: inline-block;
+    margin-right: 5px; 
+}
+
+.carousel-indicators .active {
+    background-color: #bf6e0a; 
+}

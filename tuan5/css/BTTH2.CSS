@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'FontAwesome';
+    src: url("/fonts/*");
+    src: url('/fonts/fontawesome-webfont.woff2') format('.woff2'),
+        url('/fonts/fontawesome-webfont.woff') format('.woff'),
+        url("/fonts/fontawesome-webfont.ttf") format(".ttf");
+        
+
+
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.text-fonts{
+    font-family: "FontAwesome";
+}
+
+#ulli  .nav-item:hover .nav-link {
+    color: #ed8c1e; 
+}
+.navbar-nav .nav-item .nav-link {
+    color: #ffffff; 
+}
+.horizontal-list {
+    list-style-type: none; 
+}
+
+.horizontal-list li {
+    display: inline-block; 
+}
+
